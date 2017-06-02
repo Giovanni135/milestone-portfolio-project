@@ -1,0 +1,321 @@
+body{
+font-family: "Sans-Serif";
+}
+h1 {
+  font-family: "Ubuntu";
+}
+
+h1 {
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Roboto Slab";
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+
+
+/********************* Grids *********************/
+ .full-width {
+   max-width: 1100px;
+   width: 100%;
+ }
+
+.half-width {
+  max-width: 600px;
+  width: 100%;
+  height: 770px;
+  margin: 15px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.third-width {
+  max-width: 350px;
+  width: 100%;
+  float: left;
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+
+/********************* Header *********************/
+
+header {
+  height: 800px;
+  background: url(https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+header .half-width {
+ background-color: rgb(78, 114, 173);
+ float: left;
+ opacity: .8;
+}
+
+.half-width .home-button {
+  float: left;
+  padding: 10px 0 0 10px;
+}
+
+#nav {
+  margin-left: -15px;
+  float: right;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+
+}
+
+#nav ul li {
+  font-family: "Roboto Slab";
+  font-weight: 200;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 15px 20px 14px 0;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+
+}
+
+.landingpage-name {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  padding: 0 0 0 20px;
+  margin-top: -10px;
+  text-transform: uppercase;
+
+}
+
+header h1 {
+  margin-top: 120px;
+}
+
+.intro ul{
+  color: white;
+  list-style-type: none;
+  font-size: 50px;
+  padding: 200px 0 0 80px;
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.intro p {
+  padding: 0 0 0 80px;
+  margin-top: -40px;
+  letter-spacing: 1px;
+}
+
+/********************* About *********************/
+
+#about {
+  height: 800px;
+  background: url() no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+#about .half-width {
+ background-color: rgb(102, 98, 98);
+ float: right;
+ opacity: .9;
+}
+
+#about .home-button {
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+#about h1 {
+  padding-top: 110px;
+  margin-left: 40px;
+}
+
+#about p {
+  padding: 20px 50px 0 100px;
+}
+
+#about h2 {
+  padding: 40px 40px 0 0;
+  text-align: right;
+}
+
+/********************* Skills *********************/
+
+#skills .full-width {
+  height: 800px;
+  background-image: url() no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+#skills .half-width {
+  background-color: rgb(78, 114, 173);
+  float: left;
+  opacity: .8;
+
+}
+
+#skills .home-button {
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+#skills h1 {
+  padding-top: 120px;
+  margin-left: 20px;
+}
+
+#skills h2, p {
+  font-family: "Ubuntu";
+  color: white;
+  letter-spacing: 1px;
+  padding: 10px 60px 0 160px;
+}
+
+#skills h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+#skills p {
+  padding: 0px 40px 0 160px;
+  margin-top: -15px;
+}
+
+
+
+/********************* portfolio *********************/
+#portfolio {
+  height: 800px;
+  background-image: url();
+  background-size: cover;
+}
+
+
+#portfolio .full-width {
+  height: 760px;
+  width: 1170px;
+  float: center;
+  background-color: rgb(102, 98, 98);
+  border-radius: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+ #portfolio img {
+   margin: 20px 60px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 7px;
+ }
+
+ #portfolio .home-button  img{
+   margin-right: 30px;
+   padding: 10px 0 0 0;
+   float: right;
+   clear: right;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0);
+ }
+
+ .third-width {
+   margin-left: 10px;
+   margin-top: -80px;
+   float: right;
+ }
+
+ .third-width p {
+   margin-top: -20px;
+   margin-left: -80px;
+   text-align: center;
+ }
+
+ #portfolio h1 {
+   padding: 0px 0 0 60px;
+ }
+
+
+ #portfolio h2 {
+   text-align: center;
+   margin-top: -5px;
+   font-weight: 200;
+}
+
+/********************* contact *********************/
+footer .full-width {
+  height: 800px;
+  background-image: url(https://static.pexels.com/photos/161893/seattle-washington-city-cities-161893.jpeg);
+  background-size: cover;
+}
+
+footer .half-width {
+  background-color: rgb(78, 114, 173);
+  float: left;
+  opacity: .8;
+}
+
+footer h1 {
+  padding-top: 120px;
+  margin-left: 30px;
+}
+
+
+footer h2 {
+  margin-top: -20px;
+  padding: 0 30px 0 40px;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+footer h3 {
+  font-family: "Ubuntu";
+  font-weight: 200;
+  color: white;
+  letter-spacing: 1.2px;
+  padding-left: 110px;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  padding: 120px 0 0 120px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.contact {
+  padding-top: 70px;
+}
+
+footer .home-button {
+  margin: 15px 0 0 490px;
+}
